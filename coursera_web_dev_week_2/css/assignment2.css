@@ -5,6 +5,10 @@
 	font-family: 'Trebuchet MS', sans-serif;
 }
 
+row {
+	width: 100%;
+}
+
 h1 {
 	margin: 40px 0 40px 0;
 	text-align: center;
@@ -21,83 +25,178 @@ p {
 
 #box1 {
 	border: 2px solid black;
-	width: 33%;
-	height: 215px;
-	margin-right: auto;
-	margin-right: auto;
-	background-color: #999999;
-	padding-bottom: 12px;
-
+	height: auto;
+	background-color: #999999;	
+	width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+  
 }
 
-#box1-title {
+#box1 p {
+	margin-top: 55px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+#box1-title{
 	border: 2px solid black;
-	float: right;
+    position: absolute;
     padding: 5px 30px 5px 30px;
     margin-bottom: 10px;
     background-color: #d59898;
-}
-
-
-#box1-text {
-	clear: right;
-	margin : 15px 15px 15px 15px;
-	height: 200px;
+    top: 0px;
+    right: 0px;
 }
 
 #box2 {
 	border: 2px solid black;
-	width: 33%;
-	height: 215px;
-	margin-right: auto;
-	margin-right: auto;
-	background-color: #999999;
-	padding-bottom: 12px;
+	height: auto;
+	background-color: #999999;	
+	width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#box2 p {
+	margin-top: 55px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+
 }
 
 #box2-title {
 	border: 2px solid black;
-	float: right;
+	position: absolute;
     padding: 5px 50px 5px 50px;
     margin-bottom: 10px;
     background-color: #c14543;
+    top: 0px;
+    right: 0px;
+    color: white;
 }
 
-#box2-title h4 {
-	color: white;
-}
-
-#box2-text {
-	clear: right;
-	margin: 15px 15px 15px 15px;
-	height: 200px;
-}
 
 #box3 {
 	border: 2px solid black;
-	width: 33%;
-	height: 215px;
-	margin-right: auto;
-	margin-right: auto;
-	background-color: #999999;
-	padding-bottom: 12px;
+	height: auto;
+	background-color: #999999;	
+	width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#box3 p {
+	margin-top: 55px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
 }
 
 #box3-title {
 	border: 2px solid black;
-	float: right;
+	position: absolute;
     padding: 5px 30px 5px 30px;
     margin-bottom: 10px;
     background-color: #e5d198;
+    top: 0px;
+    right: 0px;
 }
 
 
-#box3-text {
-	clear: right;
-	margin: 15px 15px 15px 15px;
-	height: 200px;
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
 }
 
-.col-lg-4 {
-	float: left;
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
 }
