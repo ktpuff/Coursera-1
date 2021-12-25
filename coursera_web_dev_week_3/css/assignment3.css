@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #4fb086;
+	box-sizing: border-box;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+/*Header*/
+#header-navbar{
+	background: #dd255c;
+	border-radius: 0;
+	border: 0;
+	clear: both;
+}
+.container {
+	margin-left: 8px;
+}
+/* end Header*/
+
+/*brand name*/
+.navbar-brand h1{
+	color: white;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-left: 12px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+}
+/*end brand name*/
+
+/*header menu*/
+#nav-list {
+	margin-top: 10;
+}
+#nav-list a{
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	color: #c51f50;
+	background: #e86a90;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid whitesmoke;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
+/* end header menu*/
+
+/*body columns*/
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #1e4333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+/*body columns*/
+#box {
+	height: auto;
+	background-color: #f6f178;	
+	width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#box h4{
+	font-size: 22px;
+	font-weight: bold;
+	color: #1e4333;
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+
+#box p {
+	margin-right: 18px;
+	margin-left: 18px;
+	padding-bottom: 20px;
+	font-size: 17px;
+}
+
+
+/********** desktop devices  **********/
+@media (min-width: 992px) {
+	.col-lg-4,.col-lg-6, .col-lg-12 {
+    float: left;
+  }
+  
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-4, .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+	/* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+   .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+   #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
+  
+
+}
